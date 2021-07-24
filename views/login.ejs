@@ -1,0 +1,11 @@
+<% if(messages.error) { %>
+<h5><%=messages.error %></h5>
+<% } %>
+
+<form action="/login" method="post">
+<label for="username">username</label><br>
+<input type="text" name="username" id="" placeholder="insert username"><br>
+<label for="password">password</label><br>
+<input type="password" name="password" id="" placeholder="insert password"><br>
+<button type="submit">login</button>
+</form>
